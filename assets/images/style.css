@@ -5,9 +5,9 @@ header::before{
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(../images/jdm-car-drifting-illustration-fit-600nw-2211347991\ \(1\).png);
+    background-color: rgb(230, 220, 220);
     background-size: cover;
-    height: 100vh;
+    height: 300vh;
     width: 100vw;
     display: block;
     z-index: -10;
@@ -16,14 +16,67 @@ header::before{
 
 h1{
     font-family: 'Faster one', sans-serif;
+    text-align: center;
     font-weight: 800;
-    font-size: 32px;
+    font-size: 50px;
     color: rgb(117, 10, 10);
 }
 
-h2{
+h3{
     font-family: 'Economica', sans-serif;
+    text-align: center;
     font-weight: 500;
-    font-size: 32px;
-    color: rgb(221, 168, 168);
+    font-size: 20px;
+    color: rgb(163, 49, 49);
 }
+a{
+    color: rgb(147, 51, 51);
+}
+
+img{
+    margin: auto;
+    display: block;
+}
+
+p{
+    text-align:justify;
+    font-family: 'Calibri', sans-serif;
+    font-size: 15px;
+}
+
+.menu{
+    list-style:none;
+    border:1px solid #c0c0c0;
+    float:left;
+    }
+
+.menu li{
+    position:relative;
+    float:left;
+    border-right:1px solid #c0c0c0;
+    }
+
+.menu li a{color:#c00d0d; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{
+background:#880505;
+color:#fff;
+box-shadow:0 3px 10px 0 #ccc;
+text-shadow:0px 0px 5px #fff;
+}
+
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+    }
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+    
+.menu li ul li{
+    border:1px solid #c0c0c0;
+    display:block;
+    width:150px;
+    }
