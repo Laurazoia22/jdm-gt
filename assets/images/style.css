@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Faster+One&display=swap')
+
+header;;before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../images/jdm-car-drifting-illustration-fit-600nw-2211347991\ \(1\).png);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    z-index: -10;
+}   
+
+
+h1{
+    font-family: 'Faster one', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    color: rgb(117, 10, 10);
+}
+
+h2{
+    font-family: 'Economica', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: rgb(221, 168, 168);
+}
