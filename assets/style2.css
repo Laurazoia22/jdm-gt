@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Faster+One&display=swap');
+
+
 header::before{
     content: '';
     position: absolute;
@@ -10,9 +13,25 @@ header::before{
     z-index: -10;
 }   
 
+h2{ text-align:center;
+    color: rgb(123, 13, 32);
+    font-family: 'Faster one', sans-serif;
+    font-size: 30px;
+    }
 p{
     text-align:justify;
-    color: rgb(23, 22, 22);
-    font-family: 'Calibri', sans-serif;
+    color: rgb(70, 6, 17);
+    font-family: 'Economica', sans-serif;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+   
+}
+
+li{ 
+    text-align:justify;
+    color: rgb(63, 7, 16);
+    font-family: 'Economica', sans-serif;
     font-size: 15px;
 }
+
