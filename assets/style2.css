@@ -6,8 +6,8 @@ header::before{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgb(230, 220, 220);
-    height: 100vh;
+    background-color:rgb(230, 220, 220);
+    height: 150vh;
     width: 100vw;
     display: block;
     z-index: -10;
@@ -34,4 +34,5 @@ li{
     font-family: 'Economica', sans-serif;
     font-size: 15px;
 }
+
 
