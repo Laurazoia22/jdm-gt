@@ -30,4 +30,49 @@
             muitas vezes incorporando elementos da cultura japonesa em seus designs.
         </p>
         </div>
+        <br>
+        <br>
+        <section id="secao-orcamento">
+            <h3>Faça um orçamento da sua personalização</h3>
+
+            <form action="">
+                <div class="campo linha">
+                    <label for="nome">Modelo do carro</label>
+                    <input type="text" id="nome">
+                </div>
+                <div class="class">
+                 <label for="coloração">Coloração</label>
+                <input type="color" id="coloração">
+                </div>
+                <div class="campo">
+                <label for="data">Data de início </label>
+                <input type="datetime-local" id="data">
+                </div>
+                <div class="campo">
+                <label for="Tipo">Tipo Pintura </label>
+                <select name="Tipo" id="Tipo">
+                    <option value="1" id="Tipo">wrap</option>
+                    <option value="2" id="Tipo">Pintura sólida</option>
+                    <option value="3" id="Tipo">Pintura metálica</option>
+                    <option value="4" id="Tipo">Pintura perolizada</option>
+                    <option value="5" id="Tipo">Repintura</option>
+                </select>
+                </div>
+                <div class="campo linha">
+                <label for="">Precisa de retoque ?</label>
+                <input name="retoque"  type="radio" id="retoque_sim"> 
+                <label for="retoque_sim">Sim, preciso</label>
+
+                <input name="retoque"  type="radio" id="retoque_nao">
+                <label for="retoque_nao">Não, obrigada</label>
+
+                <input type="checkbox" id="js">
+                <label for="js"> Tem algum adicional de peças</label>
+
+                <label for="prazo"> Prazo</label>
+                <input type="range">
+                </div>
+                </form>
+        </section>
     </body>
+    </html>
